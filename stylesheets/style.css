@@ -1,0 +1,104 @@
+body	{
+	background: white;
+	padding: 15px;
+	height: 667px;
+	width: 375px;
+	margin: auto;
+}
+
+header, main, footer {
+	width: 375px;
+}
+
+header	{
+	background: black;
+	height: 83.375px;
+}
+
+.menu {
+	float: left;
+	padding: 9.6875px;
+}
+
+.refresh {
+	float: right;
+	padding: 9.6875px;
+}
+main 	{
+	background: white;
+	height: 500.25px;
+}
+
+.login_top {
+	height: 100.05px;
+}
+
+.login_title {
+	text-align: center;
+	font-family: "Permanent Marker";
+	font-size: 64px;
+	color: #7FFF00;
+	padding: 18.025px;
+
+}
+
+.login_middle_upper {
+	height: 100.05px;
+}
+
+.login_sub_title {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 32px;
+	padding-top: 18.025px;
+	padding-bottom: 18.025px;
+	color: black;
+}
+
+.login_middle_lower {
+	height: 200.1px;
+}
+
+.login_header {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	padding-top: 18.025px;
+	color: black;
+}
+
+.login_username {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	width: 375px;
+	border-style: none;
+	border-bottom: 1px solid black;
+	margin-top: 18.025px;
+}
+
+.login_password {
+		text-align: center;
+		font-family: "Quicksand";
+		font-size: 24px;
+		width: 375px;
+		border-style: none;
+		border-bottom: 1px solid black;
+		margin-top: 18.025px;
+}
+
+.login_button {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	width: 375px;
+	height: 64px;
+	border-style: none;
+	margin-top: 18.025px;
+	background: #7FFF00;
+	color: white;
+}
+footer {
+	background: black;
+	height: 83.375px;
+}
