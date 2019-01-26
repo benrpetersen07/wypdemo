@@ -24,6 +24,15 @@ header	{
 	float: right;
 	padding: 9.6875px;
 }
+
+.wyp_header {
+	font-family: "Permanent Marker";
+	font-size: 64px;
+	vertical-align: center;
+	color: #7FFF00;
+	display: flex;
+	align-items: center;
+}
 main 	{
 	background: white;
 	height: 500.25px;
@@ -33,6 +42,30 @@ main 	{
 	height: 100.05px;
 }
 
+.signup_top {
+	height: 100.05px;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.signup_title {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 32px;
+	color: black;
+	padding-top: 22.03px;
+}
+
+.signup_subtitle {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	color: #7FFF00;
+	vertical-align: middle;
+	align-items: center;
+	padding-bottom: 22.03px;
+}
+
 .login_title {
 	text-align: center;
 	font-family: "Permanent Marker";
@@ -40,6 +73,30 @@ main 	{
 	color: #7FFF00;
 	padding: 18.025px;
 
+}
+
+.signup_email, .signup_fname, .signup_lname, .signup_city, .signup_zip, .signup_password, .signup_phone, .signup_state {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	width: 370px;
+	border-style: none;
+	border: 1px solid gray;
+	background: #F8F8F8;
+	margin-top: 5px;
+	vertical-align: center;
+}
+
+.signup_middle {
+	height: 330.2px;
+}
+
+.signup_fields {
+	margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .login_middle_upper {
@@ -104,6 +161,19 @@ main 	{
 	height: 65.15px;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.signup_button {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	width: 375px;
+	height: 60px;
+	border-style: none;
+	margin-top: 5px;
+	background: #7FFF00;
+	color: white;
+	overflow: auto;
 }
 
 .sign_up_notify {
