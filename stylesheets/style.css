@@ -67,10 +67,10 @@ main 	{
 	color: #7FFF00;
 }
 
-.dashboard_top, .account_top {
+.dashboard_top, .account_top, .financial_top {
 	height: 32px;
 	text-align: center;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 24px;
 	font-weight: bold;
 }
@@ -84,9 +84,21 @@ main 	{
 	height: 266px;
 }
 
+.financial_all {
+	width: 375px;
+	height: 468px;
+}
+
 .dashboard_left {
 	width: 177.5px;
 	height: 266px;
+	padding: 5px;
+	float: left;
+}
+
+.financial_left {
+	width: 100px;
+	height: 468px;
 	padding: 5px;
 	float: left;
 }
@@ -98,6 +110,40 @@ main 	{
 	float: right;
 }
 
+.financial_right {
+	width: 255px;
+	height: 468px;
+	padding: 5px;
+	float: right;
+}
+
+.financial_title {
+	font-size: 16px;
+	font-family: "Permanent Marker";
+	padding: 5px;
+	padding-top: 15px;
+}
+
+.financial_icon {
+	padding-top: 31.5px;
+	padding-bottom: 31.5px;
+}
+.venmo_username, .venmo_password, .stripe_password, .stripe_username, .paypal_username, .paypal_password {
+	font-family: "Quicksand";
+	font-size: 16px;
+	width: 245px;
+	text-align: left;
+}
+
+.stripe_button, .venmo_button, .paypal_button {
+	color: white;
+	background: #7FFF00;
+	font-size: 16px;
+	width: 250px;
+	float: none;
+	align-items: center;
+}
+
 .driver_service {
 	display: block;
 	margin: auto;
@@ -106,7 +152,7 @@ main 	{
 
 .driver_service_text {
 	font-size: 16px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: left;
 	vertical-align: middle;
 	align-items: left;
@@ -116,7 +162,7 @@ main 	{
 
 .hourly_rate_text {
 	font-size: 16px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: left;
 	vertical-align: middle;
 	align-items: left;
@@ -128,7 +174,7 @@ main 	{
 
 .hourly_rate_input {
 	font-size: 16px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: left;
 	vertical-align: middle;
 	align-items: left;
@@ -144,7 +190,7 @@ main 	{
 
 .vehicle_text {
 	font-size: 16px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: left;
 	vertical-align: middle;
 	align-items: left;
@@ -154,7 +200,7 @@ main 	{
 
 .location_text {
 	font-size: 16px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: left;
 	vertical-align: middle;
 	align-items: left;
@@ -164,7 +210,7 @@ main 	{
 
 .ride_request {
 	font-size: 24px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: center;
 	vertical-align: middle;
 	background: black;
@@ -204,7 +250,7 @@ main 	{
 
 .ride_alert_fields {
 	font-size: 14px;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	text-align: left;
 	vertical-align: middle;
 	align-items: left;
@@ -321,7 +367,7 @@ main 	{
 
 .account_field {
 	text-align: right;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 16px;
 	width: 115px;
 	padding-top: 7.5px;
@@ -360,7 +406,7 @@ main 	{
 
 .login_sub_title {
 	text-align: center;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 32px;
 	padding-top: 18.025px;
 	padding-bottom: 18.025px;
@@ -373,7 +419,7 @@ main 	{
 
 .login_header {
 	text-align: center;
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 24px;
 	padding-top: 18.025px;
 	color: black;
@@ -464,14 +510,14 @@ main 	{
 }
 
 .sign_up_notify {
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 10px;
 	padding-top: 5px;
 	color: gray;
 }
 
 .sign_up_link, .sign_up_link a{
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 16px;
 	color: black;
 	font-style: normal;
@@ -480,7 +526,7 @@ main 	{
 }
 
 .forgot_password, .forgot_password a {
-	font-family: "Quicksand";
+	font-family: "Permanent Marker";
 	font-size: 10px;
 	padding-top: 12px;
 	text-decoration: none;
