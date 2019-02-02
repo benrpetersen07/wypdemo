@@ -67,7 +67,7 @@ main 	{
 	color: #7FFF00;
 }
 
-.dashboard_top {
+.dashboard_top, .account_top {
 	height: 32px;
 	text-align: center;
 	font-family: "Quicksand";
@@ -280,7 +280,14 @@ main 	{
 
 }
 
-.signup_email, .signup_fname, .signup_lname, .signup_city, .signup_zip, .signup_password, .signup_phone, .signup_state {
+.signup_email,
+.signup_fname,
+.signup_lname,
+.signup_city,
+.signup_zip,
+.signup_password,
+.signup_phone,
+.signup_state {
 	text-align: center;
 	font-family: "Quicksand";
 	font-size: 24px;
@@ -292,8 +299,48 @@ main 	{
 	vertical-align: center;
 }
 
-.signup_middle {
-	height: 330.2px;
+.account_email,
+.account_fname,
+.account_lname,
+.account_city,
+.account_zip,
+.account_password,
+.account_phone,
+.account_state,
+.account_hourly_rate {
+	text-align: left;
+	font-family: "Quicksand";
+	font-size: 16px;
+	width: 250px;
+	border-style: none;
+	border: 1px solid gray;
+	background: #F8F8F8;
+	margin-top: 5px;
+	vertical-align: center;
+}
+
+.account_field {
+	text-align: right;
+	font-family: "Quicksand";
+	font-size: 16px;
+	width: 115px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	padding-right: 5px;
+	vertical-align: center;
+}
+
+.account_background_check, .account_drivers_license {
+	color: black;
+	background: #7FFF00;
+	font-size: 16px;
+	width: 250px;
+	float: none;
+	align-items: center;
+}
+
+.signup_middle, .account_middle {
+	height: 398.2px;
 }
 
 .signup_fields {
@@ -304,6 +351,9 @@ main 	{
   transform: translate(-50%, -50%);
 }
 
+.account_fields {
+	float: right;
+}
 .login_middle_upper {
 	height: 100.05px;
 }
@@ -379,6 +429,38 @@ main 	{
 	background: #7FFF00;
 	color: white;
 	overflow: auto;
+}
+
+.account_update_button {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	width: 177.5px;
+	height: 60px;
+	border-style: none;
+	margin-top: 5px;
+	background: #7FFF00;
+	color: white;
+	overflow: auto;
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.account_cancel_button {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 24px;
+	width: 177.5px;
+	height: 60px;
+	border-style: none;
+	margin-top: 5px;
+	background: red;
+	color: white;
+	overflow: auto;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .sign_up_notify {
